@@ -6,6 +6,5 @@ function main() {
     //$(this).toggleClass('active');
   });
 }
-
 //Waits for the html/css to load before starting js
 $(document).ready(main);
