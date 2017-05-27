@@ -6,7 +6,6 @@
   word-wrap: break-word;
 }
 
-
 .menu {
   height:100%;
   width:100%;
@@ -156,7 +155,4 @@ td {
 	padding: auto;
 	background-image: url("http://i.imgur.com/tao4TQH.png");
 	background-size: cover;
-}
-
-
 }

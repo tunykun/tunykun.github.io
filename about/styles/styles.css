@@ -1,0 +1,96 @@
+* { 
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+body {
+	background-image: url("http://i.imgur.com/SWIynx6.png");
+}
+
+.vertical-center {
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+header {
+	background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_2.jpg");
+	background-size: cover;
+}
+
+.header-area {
+	text-shadow: 2px 2px 4px #000000;
+	height: 400px;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+#title-area {
+	color: white;
+}
+
+#title-area h1 {
+	font-size: 7em;
+}
+
+.intro {
+	height: 600px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+.item { 
+	float: left;
+	background-color: #667844;
+	
+	width: 300px;
+	margin: 10px; 
+	padding: 15px;
+	height: 300px;
+}
+
+
+.favorites {
+	height: 200px;
+	background-color: gray;
+}
+
+.recommendations{
+	padding: 0;
+	width: 100%;
+	background-color: #667844;
+}
+
+.recommendations ul {
+	text-align: center;
+}
+
+.recommendations ul li{
+	display: inline-block;
+}
+
+.recommendations ul li img {
+	width: 150px;
+	height: 200px;
+
+}
+
+.section {
+	padding-top: 20px;
+}
+
+#lol {
+	padding-top: -25px;
+}
