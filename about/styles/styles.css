@@ -9,7 +9,7 @@ p {
 }
 
 body {
-	background-image: url("http://i.imgur.com/SWIynx6.png");
+	background-image: url("../images/bg-image.png");
 }
 
 .vertical-center {
@@ -20,7 +20,7 @@ body {
 }
 
 header {
-	background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_2.jpg");
+	background-image: url("../images/spellthief-lux.jpg");
 	background-size: cover;
 }
 

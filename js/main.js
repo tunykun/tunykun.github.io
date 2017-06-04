@@ -7,5 +7,16 @@ function main() {
   });
 
 }
-//Waits for the html/css to load before starting js
+
+$(document).ready(function($){
+    var $container = $('.grid');
+    setTimeout(function(){
+        // initialize
+        $container.masonry({
+          columnWidth: 50,
+          itemSelector: '.item'
+        });
+    }, 100);
+});
+
 $(document).ready(main);
