@@ -1,13 +1,13 @@
-var ayAi = new Array;
-    $.get('ai.txt', function(data){
-            var newScript = data.split('\n');
-            ayAi = newScript.concat();
-            console.log(ayAi[1]);
-            console.log(newScript[1]);
-        });
+var ai = {
+  'dialogue': ["....", "You... How did you get here?", "No, before that... Have we met before?"],
+   'choices': [0, 0, 2]
 
-var ai = ["....", "Who are you?"];
+
+}
+
+
 var curDia = 0;
+var running = false;
 
 var showText = function (target, message, index, interval) {   
   if (index < message.length) {
@@ -17,11 +17,11 @@ var showText = function (target, message, index, interval) {
 }
 
 $(function () {
-
-  showText("#msg", ayAi[curDia], 0, 100);   
-
+  showText("#msg", ai['dialogue'][curDia], 0, 100);   
 });
 
 function advanceText() {
 	curDia++;
+  $('#msg').empty();
+  showText("#msg", ai['dialogue'][curDia], 0, 100); 
 }
